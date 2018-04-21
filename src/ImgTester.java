@@ -33,9 +33,9 @@ public class ImgTester {
 				int r = pixel.getRed();
 				int g = pixel.getGreen();
 				int b = pixel.getBlue();
-				int editr = 256 - r;
-				int editg = 256 - g;
-				int editb = 256 - b;
+				int editr = 255 - r;
+				int editg = 255 - g;
+				int editb = 255 - b;
 				
 				edit[i][j] = new Color(editr, editg, editb);
 			}
